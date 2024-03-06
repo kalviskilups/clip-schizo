@@ -8,7 +8,7 @@ When definining tensors inteded for cuda in other files, it's advised to add the
 
 import torch
 
-def_device = 'cuda:3'
+def_device = 'cpu'
 
 def force_device(device):
     """
@@ -19,4 +19,4 @@ def force_device(device):
     
     torch.cuda.set_device(def_device)
     
-force_device(def_device)
+#force_device(def_device)

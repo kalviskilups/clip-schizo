@@ -4,7 +4,7 @@ File for image-embedding and caption-embedding datasets.
 import pickle as pkl
 import numpy as np
 import torch
-import misc
+from src import misc
 import gc
 
 

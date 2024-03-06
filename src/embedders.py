@@ -15,14 +15,17 @@ Current TextEmbedders:
 Module has sideffects because it forces all tensors to be torch.cuda.FloatTensor.
 """
 
-import defdevice
+import src.defdevice as defdevice
 
 import numpy as np
 import torch
-from tensorconversions import tnp
-import defdevice
+from src.tensorconversions import tnp
+import src.defdevice as defdevice
 
-torch.set_default_tensor_type('torch.cuda.FloatTensor')
+if defdevice.def_device != 'cpu':
+    torch.set_default_tensor_type('torch.cuda.FloatTensor')
+else:
+    torch.set_default_tensor_type('torch.FloatTensor')
     
 class ImageEmbedder():
     """

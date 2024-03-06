@@ -6,9 +6,9 @@ import numpy as np
 import torch
 import torch.nn.functional as f
 
-import losses
-import tensorconversions
-import defdevice
+import src.losses as losses
+import src.tensorconversions as tensorconversions
+import src.defdevice as defdevice
 
 class Accumulator():
     """

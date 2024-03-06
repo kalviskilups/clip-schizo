@@ -7,7 +7,8 @@ import torch.nn.functional as f
 import numpy as np
 import math
 
-import defdevice
+from src import nns
+from src import defdevice
 
 class NN():
     def __init__(s):
@@ -57,6 +58,6 @@ class Linear(NN):
         torch.save(s.parameters, path + '.pt')
     
     def load(s, path):
-        s.parameters = torch.load(path + '.pt')
+        s.parameters = torch.load(path + '.pt', map_location = defdevice.def_device)
         s.w = s.parameters[0].to(defdevice.def_device)
         s.b = s.parameters[1].to(defdevice.def_device)

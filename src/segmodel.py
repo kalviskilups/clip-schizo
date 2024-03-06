@@ -2,9 +2,9 @@
 File for defining segmentation models.
 """
 
-import defdevice
+import src.defdevice as defdevice
 import numpy as np
-import tensorconversions
+import src.tensorconversions as tensorconversions
 
 class SegModel():
     """
