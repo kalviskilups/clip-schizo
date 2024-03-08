@@ -36,7 +36,7 @@ This paper presents a novel approach to open-set semantic segmentation in unstru
 
 - #### Follow the notebook on your local machine
 
-    Step 1: Navigate to [UserFriendlyNotebook.ipynb](https://github.com/paulispaulis/clip-schizo/blob/main/UserFriendlyNotebook.ipynb).
+    Step 1: Navigate to [demo_notebook.ipynb](https://github.com/kalviskilups/clip-schizo/blob/demo/demo/demo_notebook.ipynb).
 
     Step 2: Follow the notebook and see awesome segmentation results! 🔥
 
@@ -44,13 +44,13 @@ This paper presents a novel approach to open-set semantic segmentation in unstru
 
 - #### Streamlit demo on Google Colab
 
-    Step 1: [Head to Google Colab](https://llm-examples.streamlit.app/)
+    Step 1: [Head to Google Colab to test out the Streamlit demo](https://colab.research.google.com/drive/1IItKT7UV0fU_rYPxNKs05br9y-oT1ltF?usp=sharing)
 
-    Step 2: Follow the notebook and see awesome segmentation results! 🔥
+    Step 2: Follow the notebook and launch the Streamlit demo! 🔥
 
 - #### Follow the notebook on Google Colab
 
-    Step 1: [Head to Google Colab](https://llm-examples.streamlit.app/)
+    Step 1: [Head to Google Colab to test the segmentation models](https://colab.research.google.com/drive/1720bBDth233E8L_AHoPB9n0JyRWUtXFd?usp=sharing)
 
     Step 2: Follow the notebook and see awesome segmentation results! 🔥
 
