@@ -51,7 +51,7 @@ elif choice == "Video":
     width = st.number_input("Width", value = 1920, step = 1)
     height = st.number_input("Height", value = 1080, step = 1)
 
-    if uploaded_file is not None and input_labels is not None:
+    if uploaded_file is not None and input_labels is not None and width is not None and height is not None:
         model.load("../weights/CSTableModel")
         smodel = segmodel.CSModel(image_embr, text_embr, model)
 
